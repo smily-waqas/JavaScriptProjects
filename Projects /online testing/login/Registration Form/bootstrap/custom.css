@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	}
+.bgimg{
+	width: 10000px;
+	height: 700px;
+	background-image: linear-gradient(27deg, cyan 100%, blue 100%);
+    }
+.centerdiv{
+	width: 350px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: blue;
+	transform: translate(-50%,-50%);
+	background-image: linear-gradient(27deg, blue 100%, skyblue 100%);
+	box-shadow: 0px 1px 4px , 0px 1px 4px;
+}
+#profilepic{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position:relative;
+	top: -60px;
+	left: calc((350px-120px) / 2);
+}
+h2{
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+	font-size: 2px;
+	word-spacing: 10px;
+	margin-top: -50px;
+	margin-bottom: 50px;
+	text-shadow: -2px 2px 3px #0A84c6;
+}
+.inputbox
+ {
+ 	width:calc(100%-40px);
+ 	height:30px;
+ 	display:block;
+ 	margin:auto;
+ 	padding:0 10px;
+ 	box-sizing:border-box;
+	
+}
+.placeolder{
+	letter-spacing:2px;
+	color:black;
+}
+button{
+	width:calc(100%-40px);
+ 	height:30px;
+ 	display:block;
+ 	margin:auto;
+ 	color:white;
+ 	background-color:#0A84c6;
+ 	border:none;
+
+ 	}
+ .forget{
+ 	width:calc(100%-40px);
+ 	line-height:30px;
+ 	display:block;
+ 	margin:auto;
+ 	color:white;
+ 	background-color:dodgerblue;
+ 	text-transform:uppercase;
+ 	text-size:0.8px;
+ 	padding-rigt:20px;
+ 	box-sizing:border-box;
+
+ }
